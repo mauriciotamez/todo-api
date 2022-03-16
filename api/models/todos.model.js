@@ -8,6 +8,10 @@ const Todo = sequelize.define('todos', {
     autoIncrement: true,
     allowNull: false
   },
+  title: {
+    type: DataTypes.STRING(255),
+    allowNull: false
+  },
   content: {
     type: DataTypes.STRING(255),
     allowNull: false
