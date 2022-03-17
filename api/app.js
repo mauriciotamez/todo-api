@@ -39,7 +39,7 @@ sequelize
 
 // DB Sync
 sequelize
-  .sync({ force: true })
+  .sync()
   .then(() => console.log('Database synced'))
   .catch((err) => console.log(err))
 
